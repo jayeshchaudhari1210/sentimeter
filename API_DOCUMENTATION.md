@@ -415,7 +415,7 @@ POST /webhooks
 - **Documentation**: [https://docs.sentimeter.com](https://docs.sentimeter.com)
 - **Status Page**: [https://status.sentimeter.com](https://status.sentimeter.com)
 - **Support Email**: api-support@sentimeter.com
-- **GitHub Issues**: [https://github.com/JayeshCC/sentimeter/issues](https://github.com/JayeshCC/sentimeter/issues)
+- **GitHub Issues**: [https://github.com/jayeshchaudhari1210/sentimeter/issues](https://github.com/jayeshchaudhari1210/sentimeter/issues)
 
 ## Changelog
 

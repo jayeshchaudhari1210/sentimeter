@@ -28,7 +28,7 @@ Before contributing, make sure you have:
 
 1. **Fork the repository**
    ```bash
-   # Go to https://github.com/JayeshCC/sentimeter and click "Fork"
+   # Go to https://github.com/jayeshchaudhari1210/sentimeter and click "Fork"
    ```
 
 2. **Clone your fork**
@@ -39,7 +39,7 @@ Before contributing, make sure you have:
 
 3. **Add the original repository as upstream**
    ```bash
-   git remote add upstream https://github.com/JayeshCC/sentimeter.git
+   git remote add upstream https://github.com/jayeshchaudhari1210/sentimeter.git
    ```
 
 4. **Install dependencies**

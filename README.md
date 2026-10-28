@@ -20,7 +20,7 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/JayeshCC/sentimeter.git
+git clone https://github.com/jayeshchaudhari1210/sentimeter.git
 cd sentimeter
 
 # Install dependencies (when available)
@@ -113,8 +113,8 @@ This project is licensed under the MIT License - see the [LICENSE](./LICENSE) fi
 ## 📞 Support
 
 - 📧 Email: support@sentimeter.com
-- 🐛 Issues: [GitHub Issues](https://github.com/JayeshCC/sentimeter/issues)
-- 📖 Documentation: [Wiki](https://github.com/JayeshCC/sentimeter/wiki)
+- 🐛 Issues: [GitHub Issues](https://github.com/jayeshchaudhari1210/sentimeter/issues)
+- 📖 Documentation: [Wiki](https://github.com/jayeshchaudhari1210/sentimeter/wiki)
 
 ## 🙏 Acknowledgments
 
