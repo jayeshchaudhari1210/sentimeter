@@ -1,5 +1,8 @@
 # 💡 Sentimeter Examples
 
+
+> **Specification only — not an implemented service.** This document is a conceptual design/example. API behavior, dashboards, SDKs, prices, rate limits, release dates and predicted scores below are illustrative and unverified. No application, dependency manifest or test suite exists in this repository. `.example` addresses are placeholders; do not send real credentials or data. Read the [current repository status](../README.md) first.
+
 This document provides practical examples of how to use Sentimeter for different scenarios.
 
 ## 📝 Basic Text Analysis Examples
@@ -52,7 +55,7 @@ made of 100% cotton. The receipt is included in the box."
 ### Single Text Analysis (cURL)
 
 ```bash
-curl -X POST https://api.sentimeter.com/v1/analyze \
+curl -X POST https://api.sentimeter.example/v1/analyze \
   -H "Authorization: Bearer YOUR_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{
@@ -77,7 +80,7 @@ const analyzeReviews = async () => {
   ];
 
   try {
-    const response = await axios.post('https://api.sentimeter.com/v1/analyze/batch', {
+    const response = await axios.post('https://api.sentimeter.example/v1/analyze/batch', {
       texts: reviews,
       options: { detailed: false }
     }, {
@@ -105,7 +108,7 @@ import json
 class SentimentAnalyzer:
     def __init__(self, api_key):
         self.api_key = api_key
-        self.base_url = "https://api.sentimeter.com/v1"
+        self.base_url = "https://api.sentimeter.example/v1"
         self.headers = {
             "Authorization": f"Bearer {api_key}",
             "Content-Type": "application/json"
@@ -173,7 +176,7 @@ const monitorBrandMentions = async (mentions) => {
   const results = [];
   
   for (const mention of mentions) {
-    const analysis = await fetch('https://api.sentimeter.com/v1/analyze', {
+    const analysis = await fetch('https://api.sentimeter.example/v1/analyze', {
       method: 'POST',
       headers: {
         'Authorization': 'Bearer YOUR_API_KEY',
@@ -302,7 +305,7 @@ class SentimentDashboard {
     }
     
     async analyzeBatch(texts) {
-        const response = await fetch('https://api.sentimeter.com/v1/analyze/batch', {
+        const response = await fetch('https://api.sentimeter.example/v1/analyze/batch', {
             method: 'POST',
             headers: {
                 'Authorization': `Bearer ${this.apiKey}`,
@@ -409,7 +412,7 @@ import websockets
 import json
 
 async def stream_sentiment_analysis():
-    uri = "wss://api.sentimeter.com/v1/stream"
+    uri = "wss://api.sentimeter.example/v1/stream"
     
     async with websockets.connect(uri) as websocket:
         # Authenticate
@@ -453,7 +456,7 @@ class SentimeterClient:
     def __init__(self, api_key: str, max_retries: int = 3):
         self.api_key = api_key
         self.max_retries = max_retries
-        self.base_url = "https://api.sentimeter.com/v1"
+        self.base_url = "https://api.sentimeter.example/v1"
     
     def analyze_with_retry(self, text: str) -> Optional[Dict[Any, Any]]:
         for attempt in range(self.max_retries):

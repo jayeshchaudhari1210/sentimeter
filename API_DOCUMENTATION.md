@@ -1,5 +1,8 @@
 # 🔧 Sentimeter API Documentation
 
+
+> **Specification only — not an implemented service.** This document is a conceptual design/example. API behavior, dashboards, SDKs, prices, rate limits, release dates and predicted scores below are illustrative and unverified. No application, dependency manifest or test suite exists in this repository. `.example` addresses are placeholders; do not send real credentials or data. Read the [current repository status](README.md) first.
+
 ## Overview
 
 The Sentimeter API provides programmatic access to our sentiment analysis capabilities. This RESTful API allows you to integrate sentiment analysis into your applications, websites, or data processing pipelines.
@@ -7,7 +10,7 @@ The Sentimeter API provides programmatic access to our sentiment analysis capabi
 ## Base URL
 
 ```
-https://api.sentimeter.com/v1
+https://api.sentimeter.example/v1
 ```
 
 ## Authentication
@@ -18,7 +21,7 @@ All API requests require authentication using an API key:
 Authorization: Bearer YOUR_API_KEY
 ```
 
-To get an API key, sign up at [Sentimeter Dashboard](https://dashboard.sentimeter.com).
+To get an API key, sign up at [Sentimeter Dashboard](https://dashboard.sentimeter.example).
 
 ## Rate Limits
 
@@ -107,7 +110,7 @@ POST /analyze
 #### Example Request
 
 ```bash
-curl -X POST https://api.sentimeter.com/v1/analyze \
+curl -X POST https://api.sentimeter.example/v1/analyze \
   -H "Authorization: Bearer YOUR_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{
@@ -192,7 +195,7 @@ POST /analyze/batch
 Analyze text in real-time using WebSocket connection.
 
 ```javascript
-const ws = new WebSocket('wss://api.sentimeter.com/v1/stream');
+const ws = new WebSocket('wss://api.sentimeter.example/v1/stream');
 
 ws.onopen = function() {
   ws.send(JSON.stringify({
@@ -347,7 +350,7 @@ print(result.confidence)  # 0.92
 
 ```bash
 # Analyze text
-curl -X POST https://api.sentimeter.com/v1/analyze \
+curl -X POST https://api.sentimeter.example/v1/analyze \
   -H "Authorization: Bearer YOUR_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{"text": "I love this product!"}'
@@ -414,7 +417,7 @@ POST /webhooks
 
 - **Documentation**: [https://docs.sentimeter.com](https://docs.sentimeter.com)
 - **Status Page**: [https://status.sentimeter.com](https://status.sentimeter.com)
-- **Support Email**: api-support@sentimeter.com
+- **Support Email**: api-support@sentimeter.example
 - **GitHub Issues**: [https://github.com/jayeshchaudhari1210/sentimeter/issues](https://github.com/jayeshchaudhari1210/sentimeter/issues)
 
 ## Changelog
@@ -436,4 +439,4 @@ POST /webhooks
 
 ---
 
-**Ready to start analyzing sentiment? Get your API key at [Sentimeter Dashboard](https://dashboard.sentimeter.com)!**
+**Ready to start analyzing sentiment? Get your API key at [Sentimeter Dashboard](https://dashboard.sentimeter.example)!**

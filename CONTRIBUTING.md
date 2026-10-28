@@ -1,5 +1,8 @@
 # 🤝 Contributing to Sentimeter
 
+
+> **Specification only — not an implemented service.** This document is a conceptual design/example. API behavior, dashboards, SDKs, prices, rate limits, release dates and predicted scores below are illustrative and unverified. No application, dependency manifest or test suite exists in this repository. `.example` addresses are placeholders; do not send real credentials or data. Read the [current repository status](README.md) first.
+
 Thank you for your interest in contributing to Sentimeter! We welcome contributions from the community and appreciate your help in making our sentiment analysis tool better.
 
 ## 🌟 How You Can Contribute

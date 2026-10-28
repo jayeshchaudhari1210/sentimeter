@@ -1,5 +1,8 @@
 # 📚 Sentimeter User Manual
 
+
+> **Specification only — not an implemented service.** This document is a conceptual design/example. API behavior, dashboards, SDKs, prices, rate limits, release dates and predicted scores below are illustrative and unverified. No application, dependency manifest or test suite exists in this repository. `.example` addresses are placeholders; do not send real credentials or data. Read the [current repository status](README.md) first.
+
 Welcome to Sentimeter! This guide will help you get started with analyzing sentiment in your text data, even if you're not technical.
 
 ## What is Sentimeter?
